@@ -1,0 +1,145 @@
+@media screen and (min-width: 321px) {
+
+    .flexButton
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+        gap: 20px;
+    }
+
+    .buttonClick
+    {
+        display: flex;
+        gap: 20px;
+    }
+    .button
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid var(--border_blue);
+        height: 50px;
+        width: 50px;
+        flex-shrink: 0;
+    }
+
+    .button:hover{
+        color: rgba(66, 86, 122, 0.5);
+        border-color: rgba(66, 86, 122, 0.5);;
+    }
+
+    .secondButton
+    {
+        color: rgba(66, 86, 122, 0.5);
+        height: 50px;
+        width: 50px;
+        flex-shrink: 0;
+        border: 1px solid  rgba(66, 86, 122, 0.5);
+        border-radius: 50%;
+    }
+
+    .secondButton:hover{
+        color: var(--black_blue);
+        border-color: var(--black_blue);
+    }
+
+    .sliderMenu
+    {
+        width: 1200px;
+        margin-top: 100px;
+    }
+
+    .swiperBlock
+    {
+        width: 1400px;
+    }
+
+    .counter
+    {
+        font-weight: 400;
+        line-height: 18px;
+        font-size: 14px;
+        color: var(--black_blue);
+
+    }
+
+    .secondBlockMenu
+    {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 160px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .flexButton
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 30px;
+        gap: 10px;
+    }
+    .buttonClick
+    {
+        display: flex;
+        gap: 20px;
+    }
+
+    .button
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid var(--border_blue);
+        height: 30px;
+        width: 30px;
+        flex-shrink: 0;
+    }
+
+    .button:hover{
+        color: rgba(66, 86, 122, 0.5);
+        border-color: rgba(66, 86, 122, 0.5);;
+    }
+
+
+    .secondButton
+    {
+        color: rgba(66, 86, 122, 0.5);
+        height: 30px;
+        width: 30px;
+        flex-shrink: 0;
+        border: 1px solid  rgba(66, 86, 122, 0.5);
+        border-radius: 50%;
+    }
+    .secondButton:hover{
+        color: var(--black_blue);
+        border-color: var(--black_blue);
+    }
+
+
+    .sliderMenu
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 1200px;
+    }
+
+    .swiperBlock
+    {
+        width: 1400px;
+    }
+
+    .counter
+    {
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--black_blue);
+    }
+
+}

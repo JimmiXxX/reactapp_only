@@ -1,0 +1,25 @@
+@media screen and (min-width: 321px) {
+    .nameTag
+    {
+        font-weight: 700;
+        border-left: 5px solid;
+        color: var(--black_blue);
+        border-image: linear-gradient(var(--black_blue), var(--fuschia_100)) 1;
+        font-size: 56px;
+        line-height: 67px;
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nameTag
+    {
+        font-weight: 700;
+        color: var(--black_blue);
+        font-size: 20px;
+        line-height: 24px;
+        padding-left: 20px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+}

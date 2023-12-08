@@ -1,0 +1,45 @@
+@media screen and (min-width: 321px) {
+    .totalDate
+    {
+        display: flex;
+        font-size: 200px;
+        font-weight: 700;
+        line-height: 160px;
+        letter-spacing: -0.02em;
+        gap: 100px;
+        padding-top: 96px;
+        padding-left: 217px;
+    }
+    .firstDate
+    {
+        color: var(--iris_100);
+    }
+    .secondDate
+    {
+        color: var(--fuschia_100);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .totalDate
+    {
+        display: flex;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 70px;
+        margin-bottom: 20px;
+        letter-spacing: -0.02em;
+        gap: 20px;
+        width: 280px;
+        margin-left: 20px;
+        border-bottom: 1px solid rgba(199, 205, 217, 1);
+    }
+    .firstDate
+    {
+        color: var(--iris_100);
+    }
+    .secondDate
+    {
+        color: var(--fuschia_100);
+    }
+}
