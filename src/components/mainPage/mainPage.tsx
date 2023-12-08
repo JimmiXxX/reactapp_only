@@ -1,16 +1,8 @@
-// @ts-ignore
-import { Header } from '../header/header.tsx';
-// @ts-ignore
-import { Background } from "../background/background.tsx";
-// @ts-ignore
-import { Date } from "../mainDate/date.tsx";
-// @ts-ignore
-import { Contex } from "../contex.tsx";
-// @ts-ignore
-import { Slider } from "../slider/slider.tsx";
+import { Header } from '../header/header';
+import { Background } from "../background/background";
+import { Contex } from "../contex";
+import { Slider } from "../slider/slider";
 import * as React from 'react'
-
-
 
 export const MainPage = () => {
 

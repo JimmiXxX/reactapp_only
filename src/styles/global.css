@@ -1,35 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
-*{
+* {
     font-family: 'PT sans', sans-serif;
 }
 
-:root{
-    --black_blue : #42567A;
+:root {
+    --black_blue: #42567A;
     --iris_100: #5D5FEF;
     --fuschia_100: #EF5DA8;
     --blue: #3877EE;
     --border_blue: #303E5880;
 }
+
 @media screen and (max-width: 320px) {
 
-    .swiper-slide{
+    .swiper-slide {
         margin: 0;
     }
-    .swiper-slide-next
-    {
+
+    .swiper-slide-next {
         opacity: 0.5;
     }
 
-    .swiper-slide
-    {
+    .swiper-slide {
         flex-shrink: inherit;
         margin: 0;
     }
 
 
-    .swiper-button-next
-    {
+    .swiper-button-next {
         position: absolute;
         color: transparent;
         width: 30px;
@@ -37,8 +36,7 @@
         transition: 0.3s;
     }
 
-    .swiper-button-next:after
-    {
+    .swiper-button-next:after {
         content: '>';
         color: var(--blue);
         padding: 15px 20px;
@@ -48,19 +46,18 @@
     }
 }
 
-.swiper-button-next
-{
+.swiper-button-next {
     color: transparent;
     width: 50px;
     height: 50px;
     transition: 0.3s;
 }
-.swiper-button-next:hover
-{
+
+.swiper-button-next:hover {
     transform: scale(1.1);
 }
-.swiper-button-next:after
-{
+
+.swiper-button-next:after {
     content: '>';
     color: var(--blue);
     padding: 15px 20px;
@@ -68,18 +65,18 @@
     box-shadow: 0 0 15px rgba(56, 119, 238, 0.1);
     font-size: 15px;
 }
-.swiper-button-prev
-{
+
+.swiper-button-prev {
     color: transparent;
     transition: 0.3s;
 }
-.swiper-button-prev:hover
-{
+
+.swiper-button-prev:hover {
     color: transparent;
     transform: scale(1.1);
 }
-.swiper-button-prev:before
-{
+
+.swiper-button-prev:before {
     content: '<';
     color: var(--blue);
     padding: 15px 20px;
@@ -90,24 +87,20 @@
 }
 
 
-
-.swiper-scrollbar-drag
-{
+.swiper-scrollbar-drag {
     height: 0;
 }
-.swiper-scrollbar
-{
+
+.swiper-scrollbar {
     background: none;
 }
 
 
-button{
+button {
     transition: 0.3s;
 }
 
 
-
-button:hover
-{
+button:hover {
     transform: scale(1.1);
 }

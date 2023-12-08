@@ -1,6 +1,5 @@
 @media screen and (min-width: 321px) {
-    .centralBall
-    {
+    .centralBall {
         height: 530px;
         width: 530px;
         border-radius: 50%;
@@ -11,16 +10,14 @@
         left: 452px;
     }
 
-    .container
-    {
+    .container {
         border: 1px solid var(--black_blue);
         height: 1080px;
         position: relative;
         padding-top: 170px;
     }
 
-    .container:after
-    {
+    .container:after {
         content: ' ';
         width: 100%;
         background: var(--black_blue);
@@ -30,8 +27,8 @@
         top: 480px;
         left: 0;
     }
-    .container:before
-    {
+
+    .container:before {
         content: ' ';
         width: 1px;
         background: var(--black_blue);
@@ -45,13 +42,11 @@
 }
 
 @media screen and (max-width: 320px) {
-    .centralBall
-    {
+    .centralBall {
         /*display: none;*/
     }
 
-    .container
-    {
+    .container {
         border: 1px solid var(--black_blue);
         height: 100%;
         position: relative;

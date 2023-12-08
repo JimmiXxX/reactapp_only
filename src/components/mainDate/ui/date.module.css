@@ -1,6 +1,5 @@
 @media screen and (min-width: 321px) {
-    .totalDate
-    {
+    .totalDate {
         display: flex;
         font-size: 200px;
         font-weight: 700;
@@ -10,19 +9,18 @@
         padding-top: 96px;
         padding-left: 217px;
     }
-    .firstDate
-    {
+
+    .firstDate {
         color: var(--iris_100);
     }
-    .secondDate
-    {
+
+    .secondDate {
         color: var(--fuschia_100);
     }
 }
 
 @media screen and (max-width: 320px) {
-    .totalDate
-    {
+    .totalDate {
         display: flex;
         font-size: 56px;
         font-weight: 700;
@@ -34,12 +32,12 @@
         margin-left: 20px;
         border-bottom: 1px solid rgba(199, 205, 217, 1);
     }
-    .firstDate
-    {
+
+    .firstDate {
         color: var(--iris_100);
     }
-    .secondDate
-    {
+
+    .secondDate {
         color: var(--fuschia_100);
     }
 }

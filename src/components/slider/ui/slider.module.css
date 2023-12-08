@@ -1,20 +1,18 @@
 @media screen and (min-width: 321px) {
 
-    .flexButton
-    {
+    .flexButton {
         display: flex;
         flex-direction: column;
         margin-left: 80px;
         gap: 20px;
     }
 
-    .buttonClick
-    {
+    .buttonClick {
         display: flex;
         gap: 20px;
     }
-    .button
-    {
+
+    .button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -25,39 +23,35 @@
         flex-shrink: 0;
     }
 
-    .button:hover{
+    .button:hover {
         color: rgba(66, 86, 122, 0.5);
         border-color: rgba(66, 86, 122, 0.5);;
     }
 
-    .secondButton
-    {
+    .secondButton {
         color: rgba(66, 86, 122, 0.5);
         height: 50px;
         width: 50px;
         flex-shrink: 0;
-        border: 1px solid  rgba(66, 86, 122, 0.5);
+        border: 1px solid rgba(66, 86, 122, 0.5);
         border-radius: 50%;
     }
 
-    .secondButton:hover{
+    .secondButton:hover {
         color: var(--black_blue);
         border-color: var(--black_blue);
     }
 
-    .sliderMenu
-    {
+    .sliderMenu {
         width: 1200px;
         margin-top: 100px;
     }
 
-    .swiperBlock
-    {
+    .swiperBlock {
         width: 1400px;
     }
 
-    .counter
-    {
+    .counter {
         font-weight: 400;
         line-height: 18px;
         font-size: 14px;
@@ -65,8 +59,7 @@
 
     }
 
-    .secondBlockMenu
-    {
+    .secondBlockMenu {
         display: flex;
         justify-content: space-between;
         padding-left: 80px;
@@ -76,22 +69,20 @@
 
 @media screen and (max-width: 320px) {
 
-    .flexButton
-    {
+    .flexButton {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
         margin-top: 30px;
         gap: 10px;
     }
-    .buttonClick
-    {
+
+    .buttonClick {
         display: flex;
         gap: 20px;
     }
 
-    .button
-    {
+    .button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -102,41 +93,38 @@
         flex-shrink: 0;
     }
 
-    .button:hover{
+    .button:hover {
         color: rgba(66, 86, 122, 0.5);
         border-color: rgba(66, 86, 122, 0.5);;
     }
 
 
-    .secondButton
-    {
+    .secondButton {
         color: rgba(66, 86, 122, 0.5);
         height: 30px;
         width: 30px;
         flex-shrink: 0;
-        border: 1px solid  rgba(66, 86, 122, 0.5);
+        border: 1px solid rgba(66, 86, 122, 0.5);
         border-radius: 50%;
     }
-    .secondButton:hover{
+
+    .secondButton:hover {
         color: var(--black_blue);
         border-color: var(--black_blue);
     }
 
 
-    .sliderMenu
-    {
+    .sliderMenu {
         display: flex;
         flex-direction: column-reverse;
         width: 1200px;
     }
 
-    .swiperBlock
-    {
+    .swiperBlock {
         width: 1400px;
     }
 
-    .counter
-    {
+    .counter {
         font-weight: 400;
         font-size: 14px;
         color: var(--black_blue);
